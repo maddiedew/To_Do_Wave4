@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF29BC0A26B9A08400C7480B /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29BC0926B9A08400C7480B /* AddViewController.swift */; };
+		FF29BC0C26B9B10500C7480B /* CompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29BC0B26B9B10400C7480B /* CompleteViewController.swift */; };
 		FF9EBD1126B87ED000AE0796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9EBD1026B87ED000AE0796 /* AppDelegate.swift */; };
 		FF9EBD1326B87ED000AE0796 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9EBD1226B87ED000AE0796 /* SceneDelegate.swift */; };
-		FF9EBD1526B87ED000AE0796 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9EBD1426B87ED000AE0796 /* ViewController.swift */; };
 		FF9EBD1826B87ED000AE0796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9EBD1626B87ED000AE0796 /* Main.storyboard */; };
 		FF9EBD1B26B87ED000AE0796 /* To_Do_Wave4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF9EBD1926B87ED000AE0796 /* To_Do_Wave4.xcdatamodeld */; };
 		FF9EBD1D26B87ED600AE0796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9EBD1C26B87ED600AE0796 /* Assets.xcassets */; };
 		FF9EBD2026B87ED600AE0796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9EBD1E26B87ED600AE0796 /* LaunchScreen.storyboard */; };
 		FF9EBD2B26B87ED600AE0796 /* To_Do_Wave4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9EBD2A26B87ED600AE0796 /* To_Do_Wave4Tests.swift */; };
 		FF9EBD3626B87ED600AE0796 /* To_Do_Wave4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9EBD3526B87ED600AE0796 /* To_Do_Wave4UITests.swift */; };
+		FF9EBD4426B8825D00AE0796 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9EBD4326B8825D00AE0796 /* ToDoTableViewController.swift */; };
+		FF9EBD4626B8840700AE0796 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9EBD4526B8840700AE0796 /* ToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF29BC0926B9A08400C7480B /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		FF29BC0B26B9B10400C7480B /* CompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteViewController.swift; sourceTree = "<group>"; };
 		FF9EBD0D26B87ED000AE0796 /* To_Do_Wave4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = To_Do_Wave4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9EBD1026B87ED000AE0796 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF9EBD1226B87ED000AE0796 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FF9EBD1426B87ED000AE0796 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF9EBD1726B87ED000AE0796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF9EBD1A26B87ED000AE0796 /* To_Do_Wave4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = To_Do_Wave4.xcdatamodel; sourceTree = "<group>"; };
 		FF9EBD1C26B87ED600AE0796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		FF9EBD3126B87ED600AE0796 /* To_Do_Wave4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = To_Do_Wave4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9EBD3526B87ED600AE0796 /* To_Do_Wave4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_Do_Wave4UITests.swift; sourceTree = "<group>"; };
 		FF9EBD3726B87ED600AE0796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9EBD4326B8825D00AE0796 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		FF9EBD4526B8840700AE0796 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +109,11 @@
 			children = (
 				FF9EBD1026B87ED000AE0796 /* AppDelegate.swift */,
 				FF9EBD1226B87ED000AE0796 /* SceneDelegate.swift */,
-				FF9EBD1426B87ED000AE0796 /* ViewController.swift */,
 				FF9EBD1626B87ED000AE0796 /* Main.storyboard */,
+				FF29BC0B26B9B10400C7480B /* CompleteViewController.swift */,
+				FF29BC0926B9A08400C7480B /* AddViewController.swift */,
+				FF9EBD4526B8840700AE0796 /* ToDo.swift */,
+				FF9EBD4326B8825D00AE0796 /* ToDoTableViewController.swift */,
 				FF9EBD1C26B87ED600AE0796 /* Assets.xcassets */,
 				FF9EBD1E26B87ED600AE0796 /* LaunchScreen.storyboard */,
 				FF9EBD2126B87ED600AE0796 /* Info.plist */,
@@ -261,8 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF9EBD1526B87ED000AE0796 /* ViewController.swift in Sources */,
 				FF9EBD1126B87ED000AE0796 /* AppDelegate.swift in Sources */,
+				FF9EBD4626B8840700AE0796 /* ToDo.swift in Sources */,
+				FF29BC0A26B9A08400C7480B /* AddViewController.swift in Sources */,
+				FF9EBD4426B8825D00AE0796 /* ToDoTableViewController.swift in Sources */,
+				FF29BC0C26B9B10500C7480B /* CompleteViewController.swift in Sources */,
 				FF9EBD1326B87ED000AE0796 /* SceneDelegate.swift in Sources */,
 				FF9EBD1B26B87ED000AE0796 /* To_Do_Wave4.xcdatamodeld in Sources */,
 			);
